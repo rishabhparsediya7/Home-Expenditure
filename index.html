@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="addvalues.js"></script>
+    <script src="calendar.js"></script>
+
+    <title>Home Expenditure</title>
+</head>
+
+<body>
+    <div class="headings">
+        <h2 class="text-center">Home Expenditure</h2>
+    </div>
+    <div id="container-fluid" class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="months">
+                    <h3>Months</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item" onclick="getMonth('January');">January</li>
+
+                        <li class="list-group-item" onclick="getMonth('February');">February</li>
+
+                        <li class="list-group-item" onclick="getMonth('March');">March</li>
+
+                        <li class="list-group-item" onclick="getMonth('April');">April</li>
+
+                        <li class="list-group-item" onclick="getMonth('May');">May</li>
+
+                        <li class="list-group-item" onclick="getMonth('June');">June</li>
+
+                        <li class="list-group-item" onclick="getMonth('July');">July</li>
+
+                        <li class="list-group-item" onclick="getMonth('August');">August</li>
+
+                        <li class="list-group-item" onclick="getMonth('September');">September</li>
+
+                        <li class="list-group-item" onclick="getMonth('October');">October</li>
+
+                        <li class="list-group-item" onclick="getMonth('November');">November</li>
+
+                        <li class="list-group-item" onclick="getMonth('December');">December</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <label for="" id="month" class="monthtag"></label>
+                <div id="monthsd" class="mon">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
